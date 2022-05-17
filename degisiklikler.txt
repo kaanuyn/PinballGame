@@ -1,0 +1,31 @@
+ YAPILAN DEĞİŞİKLİKLER
+
+Plunger
+|
+|- Launcher Script
+|-- Max Force 200 -> 250
+
+Road Tunnel Zone
+|
+|- Force Field
+|-- Area Effector 2D
+|--- Force Magnitude 20 -> 50
+BumpyParts
+|
+|-bumperTriangleLeft
+||-- Point Effector 2D
+||--- Force Magnitude 500 -> 300
+|
+|-bumperTriangleRight
+||-- Point Effector 2D
+||--- Force Magnitude 500 -> 300
+|
+|- bumperCircles 
+||-
+||-- BumperCircle 1,2
+||-- Point Effector 2D
+||--- Force Magnitude 500 -> 700
+|-
+|-- BumperCircle 3
+|-- Point Effector 2D
+|--- Force Magnitude 500 -> 200
